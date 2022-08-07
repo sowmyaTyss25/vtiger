@@ -1,24 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.tyss.genericUtility.ListnerExtentReport"/>
+  </listeners>
   <test parallel="none" name="Test(failed)">
-    <groups>
-      <run>
-        <include name="sanity"/>
-        <include name="common"/>
-      </run>
-    </groups>
     <classes>
-      <class name="org.vtiger.campaigns.CreateCampaignTest">
+      <class name="org.vtiger.Contacts.CreateContactWithOrganizationTest">
         <methods>
-          <include name="createCampaignTest"/>
+          <include name="classTearDown"/>
+          <include name="classSetup"/>
+          <include name="methodTearDown"/>
+          <include name="methodSetUp"/>
         </methods>
-      </class> <!-- org.vtiger.campaigns.CreateCampaignTest -->
+      </class> <!-- org.vtiger.Contacts.CreateContactWithOrganizationTest -->
+      <class name="org.vtiger.documents.CreateDocumentTest">
+        <methods>
+          <include name="classTearDown"/>
+          <include name="classSetup"/>
+          <include name="methodTearDown"/>
+          <include name="methodSetUp"/>
+        </methods>
+      </class> <!-- org.vtiger.documents.CreateDocumentTest -->
+      <class name="org.vtiger.Contacts.CreateContactTest">
+        <methods>
+          <include name="classTearDown"/>
+          <include name="classSetup"/>
+          <include name="methodTearDown"/>
+          <include name="methodSetUp"/>
+        </methods>
+      </class> <!-- org.vtiger.Contacts.CreateContactTest -->
       <class name="org.vtiger.campaigns.CreateCampaignWithProductTest">
         <methods>
-          <include name="createCampaignWithProductTest"/>
+          <include name="classTearDown"/>
+          <include name="classSetup"/>
+          <include name="methodTearDown"/>
+          <include name="methodSetUp"/>
         </methods>
       </class> <!-- org.vtiger.campaigns.CreateCampaignWithProductTest -->
+      <class name="org.vtiger.campaigns.CreateCampaignTest">
+        <methods>
+          <include name="classTearDown"/>
+          <include name="createCampaignTest"/>
+          <include name="classSetup"/>
+          <include name="methodTearDown"/>
+          <include name="methodSetUp"/>
+        </methods>
+      </class> <!-- org.vtiger.campaigns.CreateCampaignTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

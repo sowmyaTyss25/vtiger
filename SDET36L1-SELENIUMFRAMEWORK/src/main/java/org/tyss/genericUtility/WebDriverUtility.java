@@ -325,4 +325,11 @@ public final class WebDriverUtility {
 	public void closeTab() {
 		driver.close();
 	}
+	
+	public String takescreenshot(WebDriver driver) {
+		TakesScreenshot ts=(TakesScreenshot) driver;
+		String fullimage = ts.getScreenshotAs(OutputType.BASE64);
+		return fullimage;
+		
+	}
 }

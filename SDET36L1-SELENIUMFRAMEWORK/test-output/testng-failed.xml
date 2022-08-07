@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test parallel="none" name="Default test(failed)">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.tyss.genericUtility.ListnerExtentReport"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
     <classes>
+      <class name="org.vtiger.Contacts.CreateContactWithOrganizationTest">
+        <methods>
+          <include name="classTearDown"/>
+          <include name="classSetup"/>
+          <include name="methodTearDown"/>
+          <include name="methodSetUp"/>
+        </methods>
+      </class> <!-- org.vtiger.Contacts.CreateContactWithOrganizationTest -->
+      <class name="org.vtiger.documents.CreateDocumentTest">
+        <methods>
+          <include name="classTearDown"/>
+          <include name="classSetup"/>
+          <include name="methodTearDown"/>
+          <include name="methodSetUp"/>
+        </methods>
+      </class> <!-- org.vtiger.documents.CreateDocumentTest -->
+      <class name="org.vtiger.Contacts.CreateContactTest">
+        <methods>
+          <include name="classTearDown"/>
+          <include name="classSetup"/>
+          <include name="methodTearDown"/>
+          <include name="methodSetUp"/>
+        </methods>
+      </class> <!-- org.vtiger.Contacts.CreateContactTest -->
+      <class name="org.vtiger.campaigns.CreateCampaignWithProductTest">
+        <methods>
+          <include name="classTearDown"/>
+          <include name="classSetup"/>
+          <include name="methodTearDown"/>
+          <include name="methodSetUp"/>
+        </methods>
+      </class> <!-- org.vtiger.campaigns.CreateCampaignWithProductTest -->
       <class name="org.vtiger.campaigns.CreateCampaignTest">
         <methods>
           <include name="classTearDown"/>
@@ -13,5 +48,5 @@
         </methods>
       </class> <!-- org.vtiger.campaigns.CreateCampaignTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

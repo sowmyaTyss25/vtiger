@@ -7,7 +7,7 @@ import org.tyss.genericUtility.BaseClass;
 import org.tyss.genericUtility.IPathContants;
 
 
-@Listeners(org.tyss.genericUtility.ListenerImplementation.class)
+@Listeners(org.tyss.genericUtility.ListnerExtentReport.class)
 public class CreateCampaignTest extends BaseClass {
 
 	//@Test(groups = "sanity",retryAnalyzer = org.tyss.genericUtility.ListenerImplementation.class)

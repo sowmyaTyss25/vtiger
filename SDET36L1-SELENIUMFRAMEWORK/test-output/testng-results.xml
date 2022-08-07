@@ -1,17 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-03T05:45:04Z" name="Default suite" finished-at="2022-08-03T05:45:36Z" duration-ms="31773">
+  <suite started-at="2022-08-03T12:29:13Z" name="Suite" finished-at="2022-08-03T12:31:14Z" duration-ms="120886">
     <groups>
+      <group name="sanity">
+        <method signature="CreateCampaignTest.createCampaignTest()[pri:0, instance:org.vtiger.campaigns.CreateCampaignTest@61f39bb]" name="createCampaignTest" class="org.vtiger.campaigns.CreateCampaignTest"/>
+        <method signature="CreateCampaignWithProductTest.createCampaignWithProductTest()[pri:0, instance:org.vtiger.campaigns.CreateCampaignWithProductTest@249e0271]" name="createCampaignWithProductTest" class="org.vtiger.campaigns.CreateCampaignWithProductTest"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2022-08-03T05:45:04Z" name="Default test" finished-at="2022-08-03T05:45:36Z" duration-ms="31773">
-      <class name="org.vtiger.practice.AllureLearn">
-        <test-method signature="allureLearn()[pri:0, instance:org.vtiger.practice.AllureLearn@1744a475]" started-at="2022-08-03T11:15:04Z" name="allureLearn" finished-at="2022-08-03T11:15:35Z" duration-ms="31114" status="PASS">
+    <test started-at="2022-08-03T12:29:13Z" name="Test" finished-at="2022-08-03T12:31:14Z" duration-ms="120886">
+      <class name="org.vtiger.campaigns.CreateCampaignWithProductTest">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:org.vtiger.campaigns.CreateCampaignWithProductTest@249e0271]" started-at="2022-08-03T17:59:28Z" name="classSetup" finished-at="2022-08-03T17:59:30Z" duration-ms="1980" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- allureLearn -->
-      </class> <!-- org.vtiger.practice.AllureLearn -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- classSetup -->
+        <test-method is-config="true" signature="methodSetUp()[pri:0, instance:org.vtiger.campaigns.CreateCampaignWithProductTest@249e0271]" started-at="2022-08-03T17:59:30Z" name="methodSetUp" finished-at="2022-08-03T17:59:33Z" duration-ms="2939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="createCampaignWithProductTest()[pri:0, instance:org.vtiger.campaigns.CreateCampaignWithProductTest@249e0271]" started-at="2022-08-03T17:59:33Z" name="createCampaignWithProductTest" finished-at="2022-08-03T17:59:57Z" duration-ms="24248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignWithProductTest -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:org.vtiger.campaigns.CreateCampaignWithProductTest@249e0271]" started-at="2022-08-03T17:59:57Z" name="methodTearDown" finished-at="2022-08-03T17:59:59Z" duration-ms="1920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:org.vtiger.campaigns.CreateCampaignWithProductTest@249e0271]" started-at="2022-08-03T17:59:59Z" name="classTearDown" finished-at="2022-08-03T17:59:59Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- org.vtiger.campaigns.CreateCampaignWithProductTest -->
+      <class name="org.vtiger.Contacts.CreateContactTest">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:org.vtiger.Contacts.CreateContactTest@2c0b4c83]" started-at="2022-08-03T18:00:53Z" name="classSetup" finished-at="2022-08-03T18:00:55Z" duration-ms="1682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method is-config="true" signature="methodSetUp()[pri:0, instance:org.vtiger.Contacts.CreateContactTest@2c0b4c83]" started-at="2022-08-03T18:00:55Z" name="methodSetUp" finished-at="2022-08-03T18:00:58Z" duration-ms="3447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="createContactTest()[pri:0, instance:org.vtiger.Contacts.CreateContactTest@2c0b4c83]" started-at="2022-08-03T18:00:58Z" name="createContactTest" finished-at="2022-08-03T18:01:12Z" duration-ms="13285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:org.vtiger.Contacts.CreateContactTest@2c0b4c83]" started-at="2022-08-03T18:01:12Z" name="methodTearDown" finished-at="2022-08-03T18:01:14Z" duration-ms="2084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:org.vtiger.Contacts.CreateContactTest@2c0b4c83]" started-at="2022-08-03T18:01:14Z" name="classTearDown" finished-at="2022-08-03T18:01:14Z" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- org.vtiger.Contacts.CreateContactTest -->
+      <class name="org.vtiger.Contacts.CreateContactWithOrganizationTest">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:org.vtiger.Contacts.CreateContactWithOrganizationTest@4893b344]" started-at="2022-08-03T17:59:59Z" name="classSetup" finished-at="2022-08-03T18:00:01Z" duration-ms="2007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method is-config="true" signature="methodSetUp()[pri:0, instance:org.vtiger.Contacts.CreateContactWithOrganizationTest@4893b344]" started-at="2022-08-03T18:00:01Z" name="methodSetUp" finished-at="2022-08-03T18:00:04Z" duration-ms="2849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="createContactWithOrganizationTest()[pri:0, instance:org.vtiger.Contacts.CreateContactWithOrganizationTest@4893b344]" started-at="2022-08-03T18:00:04Z" name="createContactWithOrganizationTest" finished-at="2022-08-03T18:00:33Z" duration-ms="28529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrganizationTest -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:org.vtiger.Contacts.CreateContactWithOrganizationTest@4893b344]" started-at="2022-08-03T18:00:33Z" name="methodTearDown" finished-at="2022-08-03T18:00:35Z" duration-ms="2234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:org.vtiger.Contacts.CreateContactWithOrganizationTest@4893b344]" started-at="2022-08-03T18:00:35Z" name="classTearDown" finished-at="2022-08-03T18:00:35Z" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- org.vtiger.Contacts.CreateContactWithOrganizationTest -->
+      <class name="org.vtiger.documents.CreateDocumentTest">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:org.vtiger.documents.CreateDocumentTest@53a665ad]" started-at="2022-08-03T18:00:35Z" name="classSetup" finished-at="2022-08-03T18:00:37Z" duration-ms="2015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method is-config="true" signature="methodSetUp()[pri:0, instance:org.vtiger.documents.CreateDocumentTest@53a665ad]" started-at="2022-08-03T18:00:37Z" name="methodSetUp" finished-at="2022-08-03T18:00:41Z" duration-ms="3265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="createDocumentTest()[pri:0, instance:org.vtiger.documents.CreateDocumentTest@53a665ad]" started-at="2022-08-03T18:00:41Z" name="createDocumentTest" finished-at="2022-08-03T18:00:51Z" duration-ms="10376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDocumentTest -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:org.vtiger.documents.CreateDocumentTest@53a665ad]" started-at="2022-08-03T18:00:51Z" name="methodTearDown" finished-at="2022-08-03T18:00:53Z" duration-ms="2073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:org.vtiger.documents.CreateDocumentTest@53a665ad]" started-at="2022-08-03T18:00:53Z" name="classTearDown" finished-at="2022-08-03T18:00:53Z" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- org.vtiger.documents.CreateDocumentTest -->
+      <class name="org.vtiger.campaigns.CreateCampaignTest">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:org.vtiger.campaigns.CreateCampaignTest@61f39bb]" started-at="2022-08-03T17:59:14Z" name="classSetup" finished-at="2022-08-03T17:59:19Z" duration-ms="5352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method is-config="true" signature="methodSetUp()[pri:0, instance:org.vtiger.campaigns.CreateCampaignTest@61f39bb]" started-at="2022-08-03T17:59:19Z" name="methodSetUp" finished-at="2022-08-03T17:59:23Z" duration-ms="3737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="createCampaignTest()[pri:0, instance:org.vtiger.campaigns.CreateCampaignTest@61f39bb]" started-at="2022-08-03T17:59:23Z" name="createCampaignTest" finished-at="2022-08-03T17:59:23Z" duration-ms="237" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at org.vtiger.campaigns.CreateCampaignTest.createCampaignTest(CreateCampaignTest.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignTest -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:org.vtiger.campaigns.CreateCampaignTest@61f39bb]" started-at="2022-08-03T17:59:24Z" name="methodTearDown" finished-at="2022-08-03T17:59:28Z" duration-ms="4470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:org.vtiger.campaigns.CreateCampaignTest@61f39bb]" started-at="2022-08-03T17:59:28Z" name="classTearDown" finished-at="2022-08-03T17:59:28Z" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- org.vtiger.campaigns.CreateCampaignTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

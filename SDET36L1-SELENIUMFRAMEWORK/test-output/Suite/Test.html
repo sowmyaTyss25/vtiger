@@ -55,41 +55,44 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/2</td>
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jul 27 15:43:05 IST 2022</td>
+<td>Started on:</td><td>Wed Aug 03 17:59:13 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (56 ms)</td>
+<tr><td>Total time:</td><td>120 seconds (120886 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td>common sanity </td>
+<td>Included groups:</td><td></td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='org.vtiger.campaigns.CreateCampaignTest.classSetup()'><b>classSetup</b><br>Test class: org.vtiger.campaigns.CreateCampaignTest</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by @Configuration on method classSetup but has not been marked @Optional or defined
-in E:\Eclipse workspace\selenium workspace\SDET36L1-SELENIUMFRAMEWORK\testngcampaign.xml
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2131597042", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2131597042'><pre>org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by @Configuration on method classSetup but has not been marked @Optional or defined
-in E:\Eclipse workspace\selenium workspace\SDET36L1-SELENIUMFRAMEWORK\testngcampaign.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+<td title='org.vtiger.campaigns.CreateCampaignTest.createCampaignTest()'><b>createCampaignTest</b><br>Test class: org.vtiger.campaigns.CreateCampaignTest</td>
+<td><div><pre>java.lang.AssertionError: null
+	at org.vtiger.campaigns.CreateCampaignTest.createCampaignTest(CreateCampaignTest.java:21)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1587189379", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1587189379'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at org.vtiger.campaigns.CreateCampaignTest.createCampaignTest(CreateCampaignTest.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
 	at org.testng.TestRunner.privateRun(TestRunner.java:774)
 	at org.testng.TestRunner.run(TestRunner.java:624)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
@@ -106,68 +109,35 @@ in E:\Eclipse workspace\selenium workspace\SDET36L1-SELENIUMFRAMEWORK\testngcamp
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>org.vtiger.campaigns.CreateCampaignTest@62010f5c</td></tr>
+<td>org.vtiger.campaigns.CreateCampaignTest@61f39bb</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
-<tr>
-<td title='org.vtiger.campaigns.CreateCampaignWithProductTest.classSetup()'><b>classSetup</b><br>Test class: org.vtiger.campaigns.CreateCampaignWithProductTest</td>
-<td></td>
-<td>0</td>
-<td>org.vtiger.campaigns.CreateCampaignWithProductTest@51fadaff</td></tr>
-<tr>
-<td title='org.vtiger.campaigns.CreateCampaignTest.methodSetUp()'><b>methodSetUp</b><br>Test class: org.vtiger.campaigns.CreateCampaignTest</td>
-<td></td>
-<td>0</td>
-<td>org.vtiger.campaigns.CreateCampaignTest@62010f5c</td></tr>
-<tr>
-<td title='org.vtiger.campaigns.CreateCampaignWithProductTest.methodSetUp()'><b>methodSetUp</b><br>Test class: org.vtiger.campaigns.CreateCampaignWithProductTest</td>
-<td></td>
-<td>0</td>
-<td>org.vtiger.campaigns.CreateCampaignWithProductTest@51fadaff</td></tr>
-<tr>
-<td title='org.vtiger.campaigns.CreateCampaignTest.methodTearDown()'><b>methodTearDown</b><br>Test class: org.vtiger.campaigns.CreateCampaignTest</td>
-<td></td>
-<td>0</td>
-<td>org.vtiger.campaigns.CreateCampaignTest@62010f5c</td></tr>
-<tr>
-<td title='org.vtiger.campaigns.CreateCampaignWithProductTest.methodTearDown()'><b>methodTearDown</b><br>Test class: org.vtiger.campaigns.CreateCampaignWithProductTest</td>
-<td></td>
-<td>0</td>
-<td>org.vtiger.campaigns.CreateCampaignWithProductTest@51fadaff</td></tr>
-<tr>
-<td title='org.vtiger.campaigns.CreateCampaignTest.classTearDown()'><b>classTearDown</b><br>Test class: org.vtiger.campaigns.CreateCampaignTest</td>
-<td></td>
-<td>0</td>
-<td>org.vtiger.campaigns.CreateCampaignTest@62010f5c</td></tr>
-<tr>
-<td title='org.vtiger.campaigns.CreateCampaignWithProductTest.classTearDown()'><b>classTearDown</b><br>Test class: org.vtiger.campaigns.CreateCampaignWithProductTest</td>
-<td></td>
-<td>0</td>
-<td>org.vtiger.campaigns.CreateCampaignWithProductTest@51fadaff</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='org.vtiger.campaigns.CreateCampaignTest.createCampaignTest()'><b>createCampaignTest</b><br>Test class: org.vtiger.campaigns.CreateCampaignTest</td>
-<td></td>
-<td>0</td>
-<td>org.vtiger.campaigns.CreateCampaignTest@62010f5c</td></tr>
 <tr>
 <td title='org.vtiger.campaigns.CreateCampaignWithProductTest.createCampaignWithProductTest()'><b>createCampaignWithProductTest</b><br>Test class: org.vtiger.campaigns.CreateCampaignWithProductTest</td>
 <td></td>
-<td>0</td>
-<td>org.vtiger.campaigns.CreateCampaignWithProductTest@51fadaff</td></tr>
+<td>24</td>
+<td>org.vtiger.campaigns.CreateCampaignWithProductTest@249e0271</td></tr>
+<tr>
+<td title='org.vtiger.Contacts.CreateContactTest.createContactTest()'><b>createContactTest</b><br>Test class: org.vtiger.Contacts.CreateContactTest</td>
+<td></td>
+<td>13</td>
+<td>org.vtiger.Contacts.CreateContactTest@2c0b4c83</td></tr>
+<tr>
+<td title='org.vtiger.Contacts.CreateContactWithOrganizationTest.createContactWithOrganizationTest()'><b>createContactWithOrganizationTest</b><br>Test class: org.vtiger.Contacts.CreateContactWithOrganizationTest</td>
+<td></td>
+<td>28</td>
+<td>org.vtiger.Contacts.CreateContactWithOrganizationTest@4893b344</td></tr>
+<tr>
+<td title='org.vtiger.documents.CreateDocumentTest.createDocumentTest()'><b>createDocumentTest</b><br>Test class: org.vtiger.documents.CreateDocumentTest</td>
+<td></td>
+<td>10</td>
+<td>org.vtiger.documents.CreateDocumentTest@53a665ad</td></tr>
 </table><p>
 </body>
 </html>
