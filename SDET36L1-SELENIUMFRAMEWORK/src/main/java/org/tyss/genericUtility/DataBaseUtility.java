@@ -12,7 +12,7 @@ import com.mysql.cj.jdbc.Driver;
 
 /**
  * This class contains only database related reusable methods
- * @author Sivasubramaniam.M
+ * @author Sivasubramaniam .M
  *
  */
 public final class DataBaseUtility {
