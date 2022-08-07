@@ -19,7 +19,7 @@ public final class ExcelUtility {
 	private Workbook workbook;
 	Sheet sheet;
 	/**
-	 * This method is used to intiallize the excel file
+	 * This method is used  to intiallize the excel file
 	 * @param excelPath
 	 */
 	public void intiallizeExcelFile(String excelPath) {
